@@ -5,9 +5,12 @@ import React from 'react'
 import { useSearchParams } from 'next/navigation'
 
 
+
 const NavbarItem = ({title , param}) => {
 
     const searchParams = useSearchParams()
+    
+    // to get query key from url
     const genre = searchParams.get("genre")
 
   return (
