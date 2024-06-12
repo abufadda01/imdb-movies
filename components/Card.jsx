@@ -20,6 +20,7 @@ const Card = ({result}) => {
             <div className='p-2'>
 
                 <p className='line-clamp-2 text-md'>{result.overview}</p>
+                
                 <h2 className='text-lg font-bold truncate text-amber-500'>{result.title || result.name}</h2>
 
                 <p className='flex items-center gap-1'>
